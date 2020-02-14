@@ -17,9 +17,7 @@ I found this GitHub repository under the EDI account: https://github.com/EDIorg/
 
 Looks like [*eml-entity*](https://sbclter.msi.ucsb.edu/external/InformationManagement/EML_210schema/docs/eml-2.1.0/index.html#eml-entity) is the EML metadata construct for describing files within a dataset (*link is to spec for version 2.1.0, not the latest 2.1.1*).
 
-
 ## example
-
 
 This is one of the more complete examples I've seen.
 
@@ -28,7 +26,6 @@ This is one of the more complete examples I've seen.
 * FILE: [hf276-01-DF-invertebrate.csv](https://portal.edirepository.org/nis/dataviewer?packageid=knb-lter-hfr.276.2&entityid=e804c34114d8fcea9bec08708095a7d9)
 
 (A copy of [*hf276-01-DF-invertebrate.csv*](https://github.com/jjmcnelis/metadata-standards-usage-docs/orgs/examples/edi/hf276-01-DF-invertebrate.csv) is saved in this GitHub repository.)
-
 
 ### FILE: head
 
@@ -46,7 +43,6 @@ date,week,tag,efflux,temp,chamber,subsample,mesocosm,core.depth,leaf.decomp,inve
 2013-07-17,1,749,5.53,19.60168,3,D,3D,3,0.049996038,0.14,15,7,0.014,3,3,NA,NA,1,0,3,0,0,1,7,2
 2013-07-17,1,926,5.713333333,19.60168,3,A,3A,2,-0.027986241,0.02,3,3,NA,NA,NA,266.7579,110.9592,1,0,1,0,0,0,0,1
 ```
-
 
 ###  FILE: columns
 
@@ -81,8 +77,6 @@ ant,
 beetle
 ```
 
-
-
 ### XML: *eml-entity* level metadata fields
 
 These describe the CSV file:
@@ -112,7 +106,6 @@ These describe the CSV file:
 </physical>
 ```
 
-
 ### XML: *eml-entity: attribute* level metadata fields
 
 These describe the columns (*date* in this case):
@@ -133,7 +126,6 @@ These describe the columns (*date* in this case):
   </missingValueCode>
 </attribute>
 ```
-
 
 ### COMPLETE *eml-entity* XML (there are ~6 of these in the dataset):
 

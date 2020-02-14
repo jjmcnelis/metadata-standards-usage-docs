@@ -1,28 +1,22 @@
 # Knowledge Network for Biocomplexity: ([KNB](http://knb.ecoinformatics.org/informatics/index.jsp/))
 
->As part of KNB (sponsored by NSF), 
->
-
 KNB data management software is developed in a free and open source manner, so other groups can build upon the tools. It is a [DataONE](https://dataone.org) member node.
 
 The KNB is powered by the [Metacat data management system](https://www.dataone.org/software-tools/metacat), and is optimized for handling data sets described using the [Ecological Metadata Language](https://github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/eml.md), but can store any XML-based metadata document.
 
 Data are exposed through the KNB Data Portal ([Metacat UI](https://github.com/NCEAS/metacatui)): https://knb.ecoinformatics.org/data
 
-
 ## example 1 ([EML](https://www.github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/eml-specification.md))
-
 
 * **DATASET**: https://knb.ecoinformatics.org/view/urn:uuid:045c9be0-7a5a-4c01-b010-529dc21aee79
 * **CITATION**:
 
 >```
-Susan Natali, Alexander Kholodov, and Michael Loranty. 2016. Thaw depth and organic layer depth from Alaska borehole sites, 2015, 2017, 2018 (ViPER Project). Arctic Data Center. urn:uuid:045c9be0-7a5a-4c01-b010-529dc21aee79. 
-```
+>Susan Natali, Alexander Kholodov, and Michael Loranty. 2016. Thaw depth and organic layer depth from Alaska borehole sites, 2015, 2017, 2018 (ViPER Project). Arctic Data Center. urn:uuid:045c9be0-7a5a-4c01-b010-529dc21aee79. 
+>```
 
 * **FILE**: *ViPER_Coordinates_2015.csv* (no access)
 * **METADATA**: EML v2.1.1 ([XML](https://github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/specifications/orgs/knb/Dataset_for_Trade_off_between_early_.xml)) 
-
 
 ### XML: *eml-entity* level metadata fields
 
@@ -118,16 +112,14 @@ This is the *eml-entity* from the larger *eml-dataset* record linked [here](http
 </dataTable>
 ```
 
-
 ## example 2 ([EML](https://www.github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/eml-specification.md))
-
 
 * **DATASET**: https://knb.ecoinformatics.org/view/doi:10.5063/F17W69K6
 * **CITATION**:
 
 >```
-Joseph Waterton and Elsa Cleland. 2016. Dataset for "Trade-off between early emergence and herbivore susceptibility mediates exotic success in an experimental California plantcommunity". Knowledge Network for Biocomplexity. doi:10.5063/F17W69K6. 
-```
+>Joseph Waterton and Elsa Cleland. 2016. Dataset for "Trade-off between early emergence and herbivore susceptibility mediates exotic success in an experimental California plantcommunity". Knowledge Network for Biocomplexity. doi:10.5063/F17W69K6. 
+>```
 
 * **FILE**: [*HerbivoryEmergenceTimingDataKNB.xlsx*](https://www.github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/orgs/knb/HerbivoryEmergenceTimingDataKNB.xlsx)
 * **METADATA**: EML v2.1.1 ([XML](https://www.github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/orgs/knb/Dataset_for_Trade_off_between_early_.xml)) 
@@ -136,7 +128,6 @@ Joseph Waterton and Elsa Cleland. 2016. Dataset for "Trade-off between early eme
 ### FILE: *HerbivoryEmergenceTimingDataKNB.xlsx*
 
 *I cant display XLSX in Markdown. It's copied into the repo [here](https://www.github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/orgs/knb/HerbivoryEmergenceTimingDataKNB.xlsx).*
-
 
 ### XML: *eml-entity* level metadata fields
 
@@ -154,17 +145,15 @@ But the higher level dataset record is larger than the dataset record from examp
 
 ## example 3 ([ISO/TS 19139 (gmd)](https://www.github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/iso-standards.md#ISO-19115))
 
-
 * **DATASET**: https://knb.ecoinformatics.org/view/10.24431/rw1k43h
 * **CITATION**:
 
 >```
-Alaska Department of Fish and Game, Ben Williams, Richard Brenner, and Heath Kimball. ADF&G Central Region (Bristol Bay, Prince William Sound, Cook Inlet) Salmon Age Sex Length Data, 1957-2018. Research Workspace. 10.24431/rw1k43h, version: 10.24431_rw1k43h_202016215125. 
-```
+>Alaska Department of Fish and Game, Ben Williams, Richard Brenner, and Heath Kimball. ADF&G Central Region (Bristol Bay, Prince William Sound, Cook Inlet) Salmon Age Sex Length Data, 1957-2018. Research Workspace. 10.24431/rw1k43h, version: 10.24431_rw1k43h_202016215125. 
+>```
 
 * **FILE**: (*no access*)
 * **METADATA**: http://www.isotc211.org/2005/gmd ([XML](https://www.github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/orgs/knb/10.24431_rw1k43h_202016215125.xml)) 
-
 
 ### XML: *This is the whole thing ...*
 

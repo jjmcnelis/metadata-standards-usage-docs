@@ -5,7 +5,6 @@ CMR supports multiple metadata standards through its Unified Metadata Model (UMM
 * [CMR](https://earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/cmr/)
 * [UMM](https://earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/cmr/umm)
 
-
 **supported standards/specifications:**
 
 standards/specs that have file level implementations:
