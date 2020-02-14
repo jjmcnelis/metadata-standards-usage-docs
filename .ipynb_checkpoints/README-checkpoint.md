@@ -14,7 +14,20 @@
 * both are use the same data access/portal infrastructure (powered by [MetacatUI](https://github.com/NCEAS/metacatui));
 * both use the [Ecological Metadata Language](https://eml.ecoinformatics.org/)) metadata specification.
 
-Other impressions/notes:
+Other impressions:
 
-* EDI receives metadata in word documents ??
-* [*eml-entity*](https://sbclter.msi.ucsb.edu/external/InformationManagement/EML_210schema/docs/eml-2.1.0/index.html#eml-entity) is the EML metadata construct that describes data objects (i.e. files) within a dataset (*note: that link points to the spec for version 2.1.0, not 2.1.1*).
+* EDI data handlers don't do themselves any favors if they receive metadata from data providers in word documents...
+
+## example records
+
+* KNB
+  * Dataset: https://knb.ecoinformatics.org/view/urn:uuid:045c9be0-7a5a-4c01-b010-529dc21aee79 | [XML](https://github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/specifications/eml-examples/Dataset_for_Trade_off_between_early_.xml)
+  * Dataset: https://knb.ecoinformatics.org/view/doi:10.5063/F17W69K6 | [XML](https://github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/specifications/eml-examples/Thaw_depth_and_organic_layer_depth_from_Alaska.xml)
+
+* CMR
+  * Dataset: All ABoVE datasets currently archived at ORNL DAAC | [JSON reformatted from ECHO-10 XML](https://raw.githubusercontent.com/jjmcnelis/nasa-cmr-inventory/master/projects/above/ds.json)
+  * Granule: All granules records from [one ABoVE dataset](https://doi.org/10.3334/ORNLDAAC/1700) in an array | [JSON reformatted from ECHO-10 XML](https://github.com/jjmcnelis/nasa-cmr-inventory/blob/master/projects/above/MODIS_MAIAC_Reflectance_1700/gr.json)
+
+```python
+
+```

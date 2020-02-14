@@ -4,7 +4,7 @@
 
 (source: [Digital Curation Center](http://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language))
 
-The [EML specification](http://knb.ecoinformatics.org/software/eml/eml-2.1.1/index.html) (currently on version 2.2.0) is mapped to [ISO 19139 (XML Schema for ISO 19115)](https://www.iso.org/standard/67253.html)
+The [EML specification](http://knb.ecoinformatics.org/software/eml/eml-2.1.1/index.html) (currently on version 2.2.0) is mapped to [ISO 19139 (XML Schema for ISO 19115)](https://www.iso.org/standard/67253.html) (described in this repository [here]()).
 
 EML is extended by the [GBIF (Global Biodiversity Information Facility) Profile](https://www.gbif.org/standards) standards. It's XML Schema Document can be found [here](http://rs.gbif.org/schema/eml-gbif-profile/dev/eml-gbif-profile.xsd).
 
@@ -12,7 +12,6 @@ EML is extended by the [GBIF (Global Biodiversity Information Facility) Profile]
 
 EML is defined by a set of XML Schema files that define the types and structure of a valid EML document. The schema that pertain to file level metadata are likely defined through these core modules:
 
-* eml: top level metadata structure/container
 * eml-resource: base information for all data (and other) objects
 * eml-dataset: general information describing dataset resources
 * **[eml-entity](https://eml.ecoinformatics.org/schema/eml-entity_xsd.html#eml-entity.xsd)**: logical characteristics of each entity in a dataset (data structure)
@@ -21,7 +20,7 @@ EML is defined by a set of XML Schema files that define the types and structure 
 
 EML *entity* and *attribute* submodules are probably where a file level metadata standard is implemented.
 
-## users
+## data 
 
 [EDI: Environmental Data Initiative](https://environmentaldatainitiative.org/) *(deliverable)*
 
@@ -30,8 +29,6 @@ EML *entity* and *attribute* submodules are probably where a file level metadata
 [Long-Term Ecological Research (LTER) Network](https://lternet.edu/)
 
 [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/)
-
-[DataONE](https://www.dataone.org/)
 
 ## citations
 
@@ -46,11 +43,3 @@ Michener et al. 1997:
 ```
 William K. Michener, James W. Brunt, John J. Helly, Thomas B. Kirchner and Susan G. Stafford. *Ecological Applications*. Vol. 7, No. 1 (Feb., 1997), pp. 330-342
 ```
-
-## links
-
-interactive schema: https://eml.ecoinformatics.org/schema/eml-resource_xsd.html
-
-tool: [metacat](http://knb.ecoinformatics.org/knb/docs/)
-
-portal: [morpho](http://knb.ecoinformatics.org/morphoportal.jsp)

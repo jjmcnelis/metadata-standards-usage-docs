@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="doi:10.5063/F17W69K6" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <dataset>
+    <title>Dataset for "Trade-­off ­between ­early­ emergence­ and ­herbivore­ susceptibility­ mediates­ exotic ­success ­in ­an ­experimental­ California­ plant ­community"</title>
+    <creator id="3180103283186968">
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Waterton</surName>
+      </individualName>
+      <electronicMailAddress>jose.waterton@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3177-7667</userId>
+    </creator>
+    <creator id="8229063523412491">
+      <individualName>
+        <givenName>Elsa</givenName>
+        <surName>Cleland</surName>
+      </individualName>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3920-0029</userId>
+    </creator>
+    <pubDate>2016</pubDate>
+    <abstract>
+      <para>This dataset is from a field experiment which was carried out to test whether plant species that emerge earlier are more susceptible to herbivory, described in the paper "Trade-­off ­between ­early­ emergence­ and ­herbivore­ susceptibility­ mediates­ exotic ­success ­in ­an ­experimental­ California­ plant ­community" by Waterton and Cleland (2016) (https://doi.org/10.1002/ece3.2610). It contains data for the emergence and growth of 12 focal species (six each native and exotic) in monoculture and polyculture with early-season and late-season herbivore exclusion.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Community assembly</keyword>
+      <keyword>Emergence</keyword>
+      <keyword>Germination</keyword>
+      <keyword>Herbivory</keyword>
+      <keyword>Invasion</keyword>
+      <keyword>Phenology</keyword>
+      <keyword>Seedlings</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This work is dedicated to the public domain under the Creative Commons Universal 1.0 Public Domain Dedication. To view a copy of this dedication, visit https://creativecommons.org/publicdomain/zero/1.0/.</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>University of California San Diego Biological Field Station</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-117.230</westBoundingCoordinate>
+          <eastBoundingCoordinate>-117.230</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.885</northBoundingCoordinate>
+          <southBoundingCoordinate>32.885</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Acmispon americanus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lupinus bicolor</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium willdenovii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bromus carinatus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Festuca microstachys</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Festuca rubra</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Medicago polymorpha</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium hirtum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Vicia villosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bromus hordeaceus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Festuca myuros</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Festuca perennis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2014</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="4696847908013568">
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Waterton</surName>
+      </individualName>
+      <electronicMailAddress>jose.waterton@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3177-7667</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Methods and sampling procedures are described in full in "Trade-­off ­between ­early­ emergence­ and ­herbivore­ susceptibility­ mediates­ exotic ­success ­in ­an ­experimental­ California­ plant ­community" by Waterton and Cleland (2016) (https://doi.org/10.1002/ece3.2610).</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Dataset for "Trade-­off ­between ­early­ emergence­ and ­herbivore­ susceptibility­ mediates­ exotic ­success ­in ­an ­experimental­ California­ plant ­community"</title>
+      <personnel id="3908049796233099">
+        <individualName>
+          <givenName>Joseph</givenName>
+          <surName>Waterton</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel id="4026131853457475">
+        <individualName>
+          <givenName>Elsa</givenName>
+          <surName>Cleland</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <funding>
+        <para>Jeanne M. Messier Memorial Fellowship</para>
+      </funding>
+    </project>
+    <otherEntity id="urn-uuid-151d090a-a867-4f5f-b1ce-aeb9081d6e69">
+      <entityName>HerbivoryEmergenceTimingDataKNB.xlsx</entityName>
+      <entityType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

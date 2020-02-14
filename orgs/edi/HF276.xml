@@ -1,0 +1,1712 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.276.2" scope="system" system="https://pasta.edirepository.org" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF276">
+    <alternateIdentifier>HF276</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/8d35e09a8d49cd1309b070383ad5c97c</alternateIdentifier>
+    <title>Impacts of Climate Warming on Trophic Function at Harvard Forest and Duke Forest 2013</title>
+    <creator>
+      <individualName>
+        <givenName>Shannon</givenName>
+        <surName>Pelini</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Angus</givenName>
+        <surName>Chen</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Justine</givenName>
+        <surName>Kaseman</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <surName>Crowther</surName>
+      </individualName>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Audrey</givenName>
+        <surName>Maran</surName>
+      </individualName>
+      <role>Researcher</role>
+    </associatedParty>
+    <pubDate>2016</pubDate>
+    <abstract>
+      <section>
+        <para>Forest floor food webs play pivotal roles in carbon cycling, but they are rarely considered in models of carbon fluxes, including soil carbon dioxide emissions (respiration), under climatic warming. The indirect effects of invertebrates on heterotrophic respiration through interactions with microbial communities are significant and will be altered by warming. However, the interactive effects of invertebrates and warming on microbes and heterotrophic respiration in the field are poorly understood. In this study we combined field and common garden laboratory approaches to examine relationships between warming, forest floor food web structure, and heterotrophic respiration. We found that soil animals can overwhelm the effects of warming (to 5 degrees Celsius above ambient) on heterotrophic respiration. In particular, the presence of higher trophic levels and burrowing detritivores strongly determined heterotrophic respiration rates in temperate forest soils, dictating the ecosystem response to warming. These effects were, however, context-dependent, with greater effects in a lower-latitude site. Without isolating and including the significant impact of invertebrates, climate models will be incomplete, hindering well-informed policy decisions.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>arthropods</keyword>
+      <keyword>carbon</keyword>
+      <keyword>climate change</keyword>
+      <keyword>community structure</keyword>
+      <keyword>food webs</keyword>
+      <keyword>insects</keyword>
+      <keyword>soil respiration</keyword>
+      <keyword>trophic structure</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>organic matter</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public under Creative Commons license CC BY (Attribution). Please keep the designated contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf276</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Prospect Hill Tract (Harvard Forest), Duke Forest (NC)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-79.98</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.19</eastBoundingCoordinate>
+          <northBoundingCoordinate>+43.53</northBoundingCoordinate>
+          <southBoundingCoordinate>+35.87</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>130</altitudeMinimum>
+            <altitudeMaximum>340</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2013</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Shannon</givenName>
+        <surName>Pelini</surName>
+      </individualName>
+      <organizationName>Bowling Green State University</organizationName>
+      <address>
+        <deliveryPoint>217 Life Sciences</deliveryPoint>
+        <city>Bowling Green</city>
+        <administrativeArea>OH</administrativeArea>
+        <postalCode>43403</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(419) 372-8760</phone>
+      <electronicMailAddress>spelini@bgsu.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Duke Forest Common Garden Experiment--Invertebrate</title>
+            <para>Soil cores (~20cm diameter, organic layer) were collected from warm ant chambers at Duke Forest on 10 July 2013 and shipped to Harvard Forest, where macroinvertebrates (&gt;1cm) were separated, recorded, and added to mesocosms (20 cm tall x 10 cm diameter PVC columns with rubber bottom cap and covered with black landscape cloth secured with rubber band). Mesocosms contained homogenized soils, with macroinvertebrates removed, collected near Harvard Forest warming chambers. Mesocosms were placed in Shaler basement wood shop. Experiment ran 17 July-19 August 2013. We measured leaf decomposition (round leaf litter bags course enough for invertebrate access on the topside; leaves were plucked and air dried from one Harvard Forest maple tree). Mesocosms were harvested at the end of the experiment and all living and dead invertebrate bodies were recorded. Respiration measurements were taken on a LI-6400 (LICOR, Lincoln, NE). Invertebrates were identified broadly into the following categories: spider, centipede, beetle larva morph 1, beetle larva morph 2, millipede, fly larva, caterpillar, earthworm, ant, leaf beetle, beetle. NA's represent missing or not relevant data.</para>
+          </section>
+          <section>
+            <title>Harvard Forest Common Garden Experiment--Microbe</title>
+            <para>Same as “Duke Forest Common Garden Experiment—Invertebrate”, but soil cores (~20cm diameter, organic layer) were collected from warm ant chambers at Harvard Forest on 1 June 2013. Invertebrates were not included in any mesocosms.</para>
+          </section>
+          <section>
+            <title>Harvard Forest Common Garden Experiment--Invertebrate</title>
+            <para>Soil cores (~20cm diameter, organic layer) were collected from warm ant chambers at Harvard Forest on 1 June 2013. Macroinvertebrates (&gt;1cm) were separated, recorded, and added to mesocosms (20 cm tall x 10 cm diameter PVC columns with rubber bottom cap and covered with black landscape cloth secured with rubber band). Mesocosms contained homogenized soils left over from soil cores upon macroinvertebrate extraction. Mesocosms were placed in Torrey greenhouse. Experiment was moved on 25 June 2013 into Shaler greenhouse, where temperatures spiked, causing nearly 100 % mortality, thus ending the experiment. We measured leaf decomposition (round leaf litter bags course enough for invertebrate access on the topside; decomposing maple and birch leaf mix was collected near the warming chambers. Measurements as described in “Duke Forest Common Garden Experiment—Invertebrate.” Invertebrates were identified broadly into the following categories: beetle larva, beetle small ambrosia-like, beetle-rove, beetle-other, tiger beetle morph1, tiger beetle morph2, beetle black, beetle firefly, beetle-Japanese, beetle-weevil, spider-large, spider-medium, spider-small, spider-jump, hemiptera,ant- myrmica, ant-formica, ant- aphaenogaster, ant-tapinonma sessile, ant- temnothorax, ant-lasius, ant-camponotus, opilones (harvestman), homoptera (aphid), millipede, centipede, slug, caterpillar. NA's represent missing or not relevant data.</para>
+          </section>
+          <section>
+            <title>Harvard Forest Field Mesocosm Experiment</title>
+            <para>We filled mesocosms (19 L buckets, 30 cm diameter, 44 cm height) to 10 cm height with topsoil (O and A horizons, Canton loam) that we collected ~100-200 yards away from the chambers, from which we removed roots and macrofauna (e.g., beetles, ants, spiders, millipedes) via sieving (1mm mesh), and homogenized across all mesocosms. We had 5 treatments: 1: no fauna present; 2: only micro/mesofauna present; 3: only macroinvertebrates present; 4: micro/mesofauna and macroinvertebrates present; and 5: micro/mesofauna, macroinvertebrates, and a vertebrate predator present. We removed micro- (e.g., fungi, bacteria) and meso- (e.g., mites, springtails) fauna (Treatments 1 and 3) by autoclaving soil described above at 120°C for 30 minutes. We used red back salamanders (Plethodon cinereu) as the top predator in this experiment (Treatment 4). For treatments that included macroinvertebrates (Treatments 3 and 4), we used ~1.5 g each of live earthworms (Megadrilacea), a common invertebrate engineer and food source for salamanders, and mealworms (Tenebrionidae). Mesocosms were placed in the warm ants warming chambers (1.5-5.5 degrees C above ambient) at Harvard Forest Prospect Hill Tract.</para>
+            <para>Into each mesocosm, we also installed a 10 cm diameter, 4.5 cm high, PVC collar, inserted approximately 1 cm into the soil. Within these collars we collected weekly soil efflux (RH) measurements using a LiCor 6400 (Lincoln, Nebraska). We counted and weighed all surviving macroinvertebrates at the end of the experiment. Mesocosms were present in the chambers for 6 weeks during June-August 2013.</para>
+            <para>Within a few days of being placed in the field, micro/mesofauna removal mesocosms (Treatments 1 and 3) had dense surface fungal colonization while those with fauna (Treatments 2, 4 and 5) did not. We visually estimated the amount of fungal coverage in each mesocosm using a qualitative scale from 0 (no visible fungus) to 10 (no bare soil visible).</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="hf276-01">
+      <entityName>hf276-01-DF-invertebrate.csv</entityName>
+      <entityDescription>Duke Forest common garden experiment -invertebrate</entityDescription>
+      <physical id="1458736063817">
+        <objectName>hf276-01-DF-invertebrate.csv</objectName>
+        <size unit="byte">19243</size>
+        <authentication method="MD5">811b98ddd166a45e1655b000b1930dd8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/276/2/e804c34114d8fcea9bec08708095a7d9</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1458738910423">
+          <attributeName>date</attributeName>
+          <attributeDefinition>date of CO2 efflux measurement</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910438">
+          <attributeName>week</attributeName>
+          <attributeDefinition>week of the experiment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>week of the experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910454">
+          <attributeName>tag</attributeName>
+          <attributeDefinition>unique identifier number on metal tag attached to each decomposition bag</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier number on metal tag attached to each decomposition bag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910469">
+          <attributeName>efflux</attributeName>
+          <attributeDefinition>soil efflux (μmol CO2 mol-1) measured using LI-6400</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.000000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910485">
+          <attributeName>temp</attributeName>
+          <attributeDefinition>mean air temperature delta (difference between chamber and average of 3 ambient reference stations) of Duke Forest warming chambers between April 2010 and July 2013 from which soil cores/invertebrates were extracted</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910501">
+          <attributeName>chamber</attributeName>
+          <attributeDefinition>DF ant warming chamber from which the invertebrates originated</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>DF ant warming chamber from which the invertebrates originated</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910516">
+          <attributeName>subsample</attributeName>
+          <attributeDefinition>A-D, from 4 opposite sides of each chamber</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A-D, from 4 opposite sides of each chamber</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910532">
+          <attributeName>mesocosm</attributeName>
+          <attributeDefinition>identifier derived from chamber and subsample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>identifier derived from chamber and subsample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910547">
+          <attributeName>core.depth</attributeName>
+          <attributeDefinition>depth of extracted soil core</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910563">
+          <attributeName>leaf.decomp</attributeName>
+          <attributeDefinition>percent leaf mass lost from decomposition bag</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.000000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910579">
+          <attributeName>invert.biomass.i</attributeName>
+          <attributeDefinition>total mass of macroinvertebrates extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910594">
+          <attributeName>invert.abundance.i</attributeName>
+          <attributeDefinition>total number of macroinvertebrate individuals extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910610">
+          <attributeName>invert.richness.i</attributeName>
+          <attributeDefinition>total richness, at a broad morphological/order scale, of macroinvertebrates extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910625">
+          <attributeName>invert.biomass.f</attributeName>
+          <attributeDefinition>total mass of macroinvertebrates that survived to the end of the mesocosm experiment</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910641">
+          <attributeName>invert.abundance.f</attributeName>
+          <attributeDefinition>total number of macroinvertebrate individuals that survived to the end of the mesocosm experiment</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910657">
+          <attributeName>invert.richness.f</attributeName>
+          <attributeDefinition>total richness, at a broad morphological/order scale, of macroinvertebrates that survived to the end of the mesocosm experiment</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910672">
+          <attributeName>microbial.biomass.c</attributeName>
+          <attributeDefinition>microbial biomass (organic) carbon, using chloroform fumigation method in the lab of M Weintraub. TOC ug-C/g dry, calculated as difference between fumigated and K2SO4 extracted sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910688">
+          <attributeName>microbial.biomass.n</attributeName>
+          <attributeDefinition>microbial biomass nitrogen, using chloroform fumigation method in the lab of M Weintraub. TN ug-N/g dry, calculated as difference between fumigated and K2SO4 extracted sample.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910703">
+          <attributeName>spider</attributeName>
+          <attributeDefinition>number of spiders extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910719">
+          <attributeName>centipede</attributeName>
+          <attributeDefinition>number of centipedes extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910735">
+          <attributeName>millipede</attributeName>
+          <attributeDefinition>number of millipedes extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910750">
+          <attributeName>maggot</attributeName>
+          <attributeDefinition>number of diptera larva extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910766">
+          <attributeName>caterpillar</attributeName>
+          <attributeDefinition>number of caterpillars extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910781">
+          <attributeName>earthworm</attributeName>
+          <attributeDefinition>number of earthworms extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910797">
+          <attributeName>ant</attributeName>
+          <attributeDefinition>number of ants extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458738910813">
+          <attributeName>beetle</attributeName>
+          <attributeDefinition>number of beetles extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>176</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf276-02">
+      <entityName>hf276-02-HF-invertebrate.csv</entityName>
+      <entityDescription>Harvard Forest common garden experiment - invertebrate</entityDescription>
+      <physical id="1458738949062">
+        <objectName>hf276-02-HF-invertebrate.csv</objectName>
+        <size unit="byte">12476</size>
+        <authentication method="MD5">2738894b788c529497286599f39a6e24</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/276/2/15a5434e8ac9b7ce717cc9ba26c10341</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1458740975038">
+          <attributeName>date</attributeName>
+          <attributeDefinition>date of CO2 efflux measurement LI-6400</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975054">
+          <attributeName>week</attributeName>
+          <attributeDefinition>week of the experiment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>week of the experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975069">
+          <attributeName>tag</attributeName>
+          <attributeDefinition>unique identifier number on metal tag attached to each decomposition bag</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier number on metal tag attached to each decomposition bag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975085">
+          <attributeName>efflux</attributeName>
+          <attributeDefinition>soil efflux (μmol CO2 mol-1)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.000000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975100">
+          <attributeName>temp</attributeName>
+          <attributeDefinition>mean air temperature delta (difference between chamber and average of 3 ambient reference stations) of Harvard Forest warming chambers between April 2010 and July 2013 from which soil cores/invertebrates were extracted</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975116">
+          <attributeName>chamber</attributeName>
+          <attributeDefinition>ant warming chamber invertebrates originated from at HF</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ant warming chamber invertebrates originated from at HF</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975132">
+          <attributeName>subsample</attributeName>
+          <attributeDefinition>A-D, from 4 opposite sides of each chamber</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A-D, from 4 opposite sides of each chamber</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975147">
+          <attributeName>mesocosm</attributeName>
+          <attributeDefinition>identifier derived from chamber and subsample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>identifier derived from chamber and subsample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975163">
+          <attributeName>core.depth1</attributeName>
+          <attributeDefinition>depth of extracted soil core</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975178">
+          <attributeName>core.depth2</attributeName>
+          <attributeDefinition>depth of second extracted soil core taken due to error in collection of first core. If core.depth2 is provided, this was the depth of the core used for the experiment, otherwise core.depth1 was used.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975194">
+          <attributeName>leaf.decomp</attributeName>
+          <attributeDefinition>percent leaf mass lost from decomposition bag</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.000000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975210">
+          <attributeName>invert.biomass.i</attributeName>
+          <attributeDefinition>total mass of macroinvertebrates extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975225">
+          <attributeName>invert.abundance.i</attributeName>
+          <attributeDefinition>total number of macroinvertebrate individuals extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975241">
+          <attributeName>invert.richness.i</attributeName>
+          <attributeDefinition>total richness, at a broad morphological/order scale, of macroinvertebrates extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975256">
+          <attributeName>beetle</attributeName>
+          <attributeDefinition>number of beetles extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975272">
+          <attributeName>spider</attributeName>
+          <attributeDefinition>number of spiders extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975288">
+          <attributeName>hemiptera</attributeName>
+          <attributeDefinition>number of hemipterans extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975303">
+          <attributeName>ant</attributeName>
+          <attributeDefinition>number of ants extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975319">
+          <attributeName>opilones</attributeName>
+          <attributeDefinition>number of opilones extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975334">
+          <attributeName>homoptera</attributeName>
+          <attributeDefinition>number of homopterans extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975350">
+          <attributeName>millipede</attributeName>
+          <attributeDefinition>number of millipedes extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975366">
+          <attributeName>centipede</attributeName>
+          <attributeDefinition>number of centipedes extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975381">
+          <attributeName>slug</attributeName>
+          <attributeDefinition>number of slugs extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458740975397">
+          <attributeName>caterpillar</attributeName>
+          <attributeDefinition>number of caterpillars extracted from soil core and placed in mesocosm</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>132</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf276-03">
+      <entityName>hf276-03-HF-microbe.csv</entityName>
+      <entityDescription>Harvard Forest common garden experiment - microbe</entityDescription>
+      <physical id="1458741011168">
+        <objectName>hf276-03-HF-microbe.csv</objectName>
+        <size unit="byte">15853</size>
+        <authentication method="MD5">f64a1de399b5939fe8c9cde26ca9430e</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/276/2/824ee000f3e3c6c41113e4ccbeb0bc80</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1458742437230">
+          <attributeName>date</attributeName>
+          <attributeDefinition>date of CO2 efflux measurement</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437231">
+          <attributeName>week</attributeName>
+          <attributeDefinition>week of the experiment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>week of the experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437232">
+          <attributeName>temp</attributeName>
+          <attributeDefinition>temperature of the soil at approximately 8 cm deep</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437233">
+          <attributeName>tag</attributeName>
+          <attributeDefinition>unique identifier number on metal tag attached to each decomposition bag</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier number on metal tag attached to each decomposition bag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437234">
+          <attributeName>chamber</attributeName>
+          <attributeDefinition>HF ant warming chamber from which the invertebrates originated</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ant warming chamber invertebrates originated from at HF</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437235">
+          <attributeName>subsample</attributeName>
+          <attributeDefinition>A-D, from 4 opposite sides of each chamber</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A-D, from 4 opposite sides of each chamber</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437236">
+          <attributeName>mesocosm</attributeName>
+          <attributeDefinition>identifier derived from chamber and subsample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>identifier derived from chamber and subsample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437237">
+          <attributeName>core.depth</attributeName>
+          <attributeDefinition>depth of extracted soil core</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437238">
+          <attributeName>leaf.decomp</attributeName>
+          <attributeDefinition>percent leaf mass change in decomposition bag. Negative values indicate leaf mass was gained.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.000000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437239">
+          <attributeName>leaf.gain.loss</attributeName>
+          <attributeDefinition>indicates if leaf mass was lost or gained</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>loss</code>
+                    <definition>leaf mass lost</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>gain</code>
+                    <definition>leaf mass gained</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437240">
+          <attributeName>microbial.biomass.c</attributeName>
+          <attributeDefinition>microbial biomass (organic) Carbon, using chloroform fumigation method in the lab of M Weintraub. TOC ug-C/g dry soil, calculated as difference between fumigated and K2SO4 extracted sample.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437241">
+          <attributeName>microbial.biomass.n</attributeName>
+          <attributeDefinition>microbial biomass nitrogen, using chloroform fumigation method in the lab of M Weintraub. TN ug-N/g dry soil, calculated as difference between fumigated and K2SO4 extracted sample.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458742437242">
+          <attributeName>efflux</attributeName>
+          <attributeDefinition>soil efflux (μmol CO2 mol-1) measured using LI-6400</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.000000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>177</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf276-04">
+      <entityName>hf276-04-HF-mesocosm.csv</entityName>
+      <entityDescription>Harvard Forest field mesocosm experiment</entityDescription>
+      <physical id="1458742470307">
+        <objectName>hf276-04-HF-mesocosm.csv</objectName>
+        <size unit="byte">9957</size>
+        <authentication method="MD5">182e53e7d4b4f3778170962c87c5fa9c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/276/2/9b54026e05a90db84daa4c2730106faa</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1458743345617">
+          <attributeName>date</attributeName>
+          <attributeDefinition>date of the of CO2 efflux measurement</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1 day</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345627">
+          <attributeName>week</attributeName>
+          <attributeDefinition>week of the experiment (e.g. week 1 is the first week of measurements)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>week of the experiment (e.g. week 1 is the first week of measurements)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345637">
+          <attributeName>treatment</attributeName>
+          <attributeDefinition>treatment for the mesocosm</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>IM</code>
+                    <definition>macroinvertebrates, microinvertebrates and microbes present (soil not autoclaved)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>microbes and microinvertebrates (soil not autoclaved, no macroinvertebrates added)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>salamander, macroinvertebrates, microinvertebrates and microbes present (soil not autoclaved)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SI</code>
+                    <definition>sterile soil with macroinvertebrates only (soil autoclaved)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SS</code>
+                    <definition>sterile soil (soil autoclaved, nothing added)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1458743345647">
+          <attributeName>chamber</attributeName>
+          <attributeDefinition>HF ant warming chamber from which the invertebrates originated</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ant warming chamber invertebrates originated from at HF</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345657">
+          <attributeName>mesocosm</attributeName>
+          <attributeDefinition>unique identifier for each mesocosm</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier for each mesocosm</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345667">
+          <attributeName>temp</attributeName>
+          <attributeDefinition>average temperature over the course of the experiment for this mesocosm</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345677">
+          <attributeName>warming</attributeName>
+          <attributeDefinition>mean air temperature delta (difference between chamber and average of 3 ambient reference stations) of Harvard Forest warming chamber over course of experiment</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345687">
+          <attributeName>sal.pa</attributeName>
+          <attributeDefinition>salamander presence</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345688">
+          <attributeName>invert.pa</attributeName>
+          <attributeDefinition>macroinvertebrates presence</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345689">
+          <attributeName>microbe.pa</attributeName>
+          <attributeDefinition>whether or not soil was autoclaved to remove microbes and microinvertebrates</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>soil autoclaved to remove microbes and microinvertebrates</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>soil not autoclaved</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345699">
+          <attributeName>efflux</attributeName>
+          <attributeDefinition>soil efflux (μmol CO2 mol-1) measured using LI-6400</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345709">
+          <attributeName>fungal.cover</attributeName>
+          <attributeDefinition>fungus colonization of mesocosm. Qualitative scale from 0 (no visible fungus) to 10 (no bare soil visible)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>fungus colonization of mesocosm. Qualitative scale from 0 (no visible fungus) to 10 (no bare soil visible)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1458743345719">
+          <attributeName>invert.mor</attributeName>
+          <attributeDefinition>number of surviving macroinvertebrates/macroinvertebrate number added to mesocosm at start of experiment</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.000000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>179</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>completed</status>
+        <researchTopic>community</researchTopic>
+        <studyType>short-term measurement</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <additionalLinks>
+        <url name="Ants Under Climate Change at Harvard Forest and Duke Forest since 2009">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf113</url>
+      </additionalLinks>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
+

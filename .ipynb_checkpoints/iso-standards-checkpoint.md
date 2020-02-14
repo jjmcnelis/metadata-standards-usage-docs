@@ -4,7 +4,11 @@ ISO metadata was created using the [Unified Modeling Language (UML)](https://www
 
 (source: [Federal Geographic Data Commission](https://www.fgdc.gov/metadata/iso-standards))
 
-## ISO 191xx Suite of Geospatial Metadata Standards
+## ISO 191xx Geospatial Metadata Standards
+
+**See the UML (content) and XML (encoding) standards in the tables on this page:**
+
+https://www.fgdc.gov/metadata/iso-suite-of-geospatial-metadata-standards
 
 ### ISO 19115 (https://www.iso.org/standard/53798.html)
 
@@ -17,32 +21,13 @@ The first edition of ISO 19115 was published in 2003. It has since been split in
 * [ISO 19115/-1](https://standards.iso.org/iso/19115/): contains the fundamentals of the standard; developed to document vector and point data and geospatial data services like web-mapping applications, data catalogs, and data modeling applications.
 * [ISO 19115-2](https://standards.iso.org/iso/19115/-2): contains extensions for imagery and gridded data, as well as data collected using instruments, e.g. monitoring stations and measurement devices.
 * [ISO/TS 19115-3](https://standards.iso.org/iso/19115/-3): provides an XML schema implementation for the fundamental concepts compatible with ISO/TS 19139:2007 (Geographic Metadata XML, or GMD).
-
+  * [ISO/CD TS 19139](): Geographic information — Metadata — XML schema implementation enables interoperable XML expression of ISO19115 compliant metadata.
 ([source](https://www.fgdc.gov/metadata/selecting-a-geospatial-metadata-standard))
 
 Compatibility:
 
-* NASA Common Metadata Repository
+* [NASA Common Metadata Repository](https://github.com/jjmcnelis/metadata-standards-usage-docs/blob/master/data-metadata-org/cmr.md)
 
 ### ISO 19110 (https://www.iso.org/standard/57303.html)
 
-ISO 19110:2016 specifies how feature types can be organized into a feature catalogue and presented to the users of a set of geographic data. 
-
-* [ISO 19110](https://standards.iso.org/iso/19110): developed to document feature catalogs (entity/attributes) and can be referenced or incorporated into a 19115-1 record.
-  
->
-
-  https://standards.iso.org/iso/19115/-3/
-  * specification: [https://standards.iso.org/iso/19115/-3/](https://standards.iso.org/iso/19115/-3/)
-  * mappings: FGDC/CSDGM, DIF, UK, AGMAP, NASA CMR/UMM, netCDF
-
-
-([source](https://www.fgdc.gov/metadata/selecting-a-geospatial-metadata-standard))
-
-
-#### users
-
-* FGDC: https://www.fgdc.gov/metadata/iso-suite-of-geospatial-metadata-standards
-* 
-
-FGDC Implementation Guide: https://www.fgdc.gov/metadata/iso-suite-of-geospatial-metadata-standards
+[ISO 19110](https://standards.iso.org/iso/19110) specifies how feature types can be organized into a feature catalogue and presented to the users of a set of geographic data. Compliant feature types can be referenced or incorporated into a 19115-1 record.
