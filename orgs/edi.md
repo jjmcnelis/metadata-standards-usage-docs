@@ -77,7 +77,7 @@ ant,
 beetle
 ```
 
-### XML: *eml-entity* level metadata fields
+### XML: *eml-entity* module: file level metadata fields
 
 These describe the CSV file:
 
@@ -106,7 +106,7 @@ These describe the CSV file:
 </physical>
 ```
 
-### XML: *eml-entity: attribute* level metadata fields
+### XML: *eml-attribute* module: attribute (column) level metadata fields
 
 These describe the columns (*date* in this case):
 
